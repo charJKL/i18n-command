@@ -603,7 +603,7 @@ class MakePotCommand extends WP_CLI_Command {
 					'wpExtractTemplates' => isset( $this->main_file_data['Theme Name'] ),
 					'include'            => $this->include,
 					'exclude'            => $this->exclude,
-					'extensions'         => [ 'php' ],
+					'extensions'         => [ 'php', 'html' ],
 					'addReferences'      => $this->location,
 				];
 				PhpCodeExtractor::fromDirectory( $this->source, $translations, $options );
