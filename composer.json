@@ -1,5 +1,5 @@
 {
-    "name": "wp-cli/i18n-command",
+    "name": "charJKL/i18n-command",
     "type": "wp-cli-package",
     "description": "Provides internationalization tools for WordPress projects.",
     "homepage": "https://github.com/wp-cli/i18n-command",
